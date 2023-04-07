@@ -19,6 +19,7 @@ class Records{
         System.out.println(birthDay);
     }
     public void setComment() throws IOException{
+        System.out.println("set comment : ");
         String coment = reader.readLine();
         System.out.println("seted coment: " + coment);
     }
